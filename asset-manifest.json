@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/styleup-barbershop/static/css/main.bb8c77a3.css",
-    "main.js": "/styleup-barbershop/static/js/main.5815ba83.js",
+    "main.js": "/styleup-barbershop/static/js/main.e4c31aa3.js",
     "index.html": "/styleup-barbershop/index.html",
     "main.bb8c77a3.css.map": "/styleup-barbershop/static/css/main.bb8c77a3.css.map",
-    "main.5815ba83.js.map": "/styleup-barbershop/static/js/main.5815ba83.js.map"
+    "main.e4c31aa3.js.map": "/styleup-barbershop/static/js/main.e4c31aa3.js.map"
   },
   "entrypoints": [
     "static/css/main.bb8c77a3.css",
-    "static/js/main.5815ba83.js"
+    "static/js/main.e4c31aa3.js"
   ]
 }

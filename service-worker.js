@@ -17,7 +17,6 @@ self.addEventListener('install', (event) => {
         return cache.addAll(urlsToCache);
       })
       .then(() => {
-        // Force the waiting service worker to become active
         return self.skipWaiting();
       })
   );
@@ -37,7 +36,6 @@ self.addEventListener('activate', (event) => {
         })
       );
     }).then(() => {
-      // Take control of all pages immediately
       return self.clients.claim();
     })
   );
@@ -48,7 +46,6 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(event.request)
       .then((response) => {
-        // Clone the response before caching
         const responseToCache = response.clone();
         
         caches.open(CACHE_NAME).then((cache) => {
@@ -58,7 +55,6 @@ self.addEventListener('fetch', (event) => {
         return response;
       })
       .catch(() => {
-        // Network failed, try cache
         return caches.match(event.request);
       })
   );
