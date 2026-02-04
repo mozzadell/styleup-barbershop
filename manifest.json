@@ -1,0 +1,23 @@
+{
+  "short_name": "StyleUp",
+  "name": "StyleUp Barbershop",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/QTjOcy7.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.imgur.com/QTjOcy7.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffd7ba",
+  "background_color": "#0a0a0a",
+  "orientation": "portrait"
+}
